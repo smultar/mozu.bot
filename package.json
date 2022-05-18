@@ -1,0 +1,34 @@
+{
+  "name": "discord.vdm",
+  "author": "Smultar",
+  "version": "1.0.0",
+  "description": "Virtual Direct messages manager",
+  "license": "ISC",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --experimental-json-modules index.mjs",
+    "start": "node --experimental-json-modules index.mjs"
+  },
+  "keywords": [
+    "Discord",
+    "Smultar",
+    "Art",
+    "People"
+  ],
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.27.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.1",
+    "glob": "^7.2.0",
+    "node": "17.4.0",
+    "sequelize": "^6.15.0",
+    "sqlite3": "^5.0.0",
+    "translatte": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
